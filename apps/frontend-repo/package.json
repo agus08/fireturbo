@@ -1,0 +1,43 @@
+{
+  "name": "frontend-repo",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev -p 3002",
+    "lint": "next lint",
+    "check-types": "tsc --noEmit",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.3",
+    "@mui/material": "^6.4.3",
+    "@mui/material-nextjs": "^6.4.3",
+    "@reduxjs/toolkit": "^2.5.1",
+    "@repo/logger": "workspace:*",
+    "@repo/ui": "workspace:*",
+    "axios": "^1.7.9",
+    "firebase": "^11.3.0",
+    "next": "^15.1.6",
+    "next-firebase-auth-edge": "^1.8.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^15.1.6",
+    "@repo/config-eslint": "workspace:*",
+    "@repo/config-typescript": "workspace:*",
+    "@repo/types": "workspace:*",
+    "@types/node": "^22.12.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "eslint": "^9.19.0",
+    "typescript": "5.7.3"
+  }
+}
